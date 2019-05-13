@@ -1,6 +1,6 @@
 # Basktball Manager
 Basketball manager is the computer science final project for Semester 2
-Project on [GitHub](https://github.com/archetype2142/football_manager)
+Project on [GitHub](https://github.com/tanvinsharma/Eoop)
 ## Installation
 
 Basketball manager requires GNU plot to render graphs along with boost library for some of it's optional features 
@@ -18,7 +18,7 @@ Binaries can be easily built using the included makefile.
 $ sudo make
 ```
 #### - Running the program
-There are 5 main files included with the program that can be run from a terminal window with the following command
+There are 6 main files included with the program that can be run from a terminal window with the following command
 
 `file_name should be replaced by actual name of the file to be run.`
 ```sh
