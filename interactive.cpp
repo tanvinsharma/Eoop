@@ -6,7 +6,7 @@ using namespace std;
 
 void FanClubs::addFans() {
 	int choice = 0;
-	cout << "1. Add a bunch of fans\n2. Add custom fans\nChoice: ";
+	cout << "1. Add a bunch of fans\n2. Add custom fans\nEnter your Choice: ";
 	cin >> choice;
 	switch(choice) {
 		case 1: {
@@ -55,7 +55,7 @@ void FanClubs::addFans() {
 	}
 }
 
-void SoccerTeams::addPlayer() {
+void BasketballTeams::addPlayer() {
 	int newId;
 	int number;
 	int page;
@@ -88,7 +88,7 @@ void SoccerTeams::addPlayer() {
 }
 
 //When no args passes ask user for args 
-void SoccerTeams::addManager() {
+void BasketballTeams::addManager() {
 	ManagingDirectors mandir;
 	int number;
 	char msex;

@@ -16,12 +16,12 @@ using namespace std;
 int main(int argc, char const *argv[]) {
 
 	//Interactive 
-	FanClubs clubA("First Club", 55);
-	FanClubs clubB("Second Club", 51);
-	FanClubs clubC("Third Club", 23);
+	FanClubs clubA("First Fan Club", 55);
+	FanClubs clubB("Second Fan Club", 51);
+	FanClubs clubC("Third Fan Club", 23);
 
-	SoccerTeams teamA("Manchester", 55);
-	SoccerTeams teamB("Manchester", 51);
+	BasketballTeams teamA("Los Angeles Lakers", 55);
+	BasketballTeams teamB("Golden State Warriors", 51);
 	
 	clubA.addFans();
 	clubB.addFans();

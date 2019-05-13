@@ -12,7 +12,7 @@ using namespace std;
 class groups {
 	int num_of_people;
 	float avg_age;
-	friend class SoccerTeams;
+	friend class BasketballTeams;
 	friend class FanClubs;
  public:
 	groups(int numb = 0): num_of_people(numb) {};
@@ -26,7 +26,7 @@ class people {
 	int age;
 	bool under_auth;
 	int auth_level;
-	friend class SoccerTeams;
+	friend class BasketballTeams;
 	friend class Players;
 	friend class Fans;
 	friend class FanClubs;
@@ -43,7 +43,7 @@ class Players : public people {
 	int playerId;
 	int avgAge;
 	int team;
-	friend class SoccerTeams;
+	friend class BasketballTeams;
  public:
 	//show properties of one player 
 	void showPlayas(int);
@@ -59,7 +59,7 @@ class Players : public people {
 //Class Managing Directors people 
 class ManagingDirectors : public people {
 	int directorId;
-	friend class SoccerTeams;
+	friend class BasketballTeams;
 	int team;
  public:
  	//parameterized constructor

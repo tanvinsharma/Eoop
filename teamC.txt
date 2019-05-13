@@ -1,0 +1,51 @@
+Team name         : Toronto Raptors
+Players           : 6
+Average player age: 65.1667
+
++==============Team Data==============+
+
+| Player 1
+| Name: Kawhi
+| Sex : f
+| Age : 32
+| Pid : 32
+
+| Player 2
+| Name: Damian
+| Sex : m
+| Age : 25
+| Pid : 34
+
+| Player 3
+| Name: Simmons
+| Sex : m
+| Age : 28
+| Pid : 51
+
+| Player 4
+| Name: DeAndre
+| Sex : m
+| Age : 21
+| Pid : 54
+
+| Player 5
+| Name: Nash
+| Sex : m
+| Age : 10
+| Pid : 24
+
+| Player 6
+| Name: Shaq
+| Sex : f
+| Age : 19
+| Pid : 19
++=====================================+
+
++============Directors data===========+
+
+| Manager 0
+| Name: Jordan
+| Age : 14
+| Sex : m
+| Id  : 45
++=====================================+

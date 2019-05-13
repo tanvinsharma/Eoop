@@ -1,9 +1,9 @@
-# Football Manager
-Football manager is the computer science final project for Semester 2
+# Basktball Manager
+Basketball manager is the computer science final project for Semester 2
 Project on [GitHub](https://github.com/archetype2142/football_manager)
 ## Installation
 
-Football manager requires GNU plot to render graphs along with boost library for some of it's optional features 
+Basketball manager requires GNU plot to render graphs along with boost library for some of it's optional features 
 
 #### - Install GNU plot
 [downlad and install directly](http://www.gnuplot.info/download.html)

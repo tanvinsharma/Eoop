@@ -4,9 +4,9 @@
 #include "backbone.h"
 
 //SoccerTeam group class
-class SoccerTeams : public groups {
+class BasketballTeams : public groups {
 	std::string teamName;
-	std::vector<SoccerTeams> teams;
+	std::vector<BasketballTeams> teams;
 	int teamId;
 	friend class Players;
 public:
@@ -38,10 +38,10 @@ public:
 	//export all team details to a file
 	void exportToFile(const char *);
 	//default constructor
-	SoccerTeams() {};
+	BasketballTeams() {};
 	//parameterized constructor
-	SoccerTeams(std::string, int);
-	~SoccerTeams() {};
+	BasketballTeams(std::string, int);
+	~BasketballTeams() {};
 };
 
 //FanClub group class

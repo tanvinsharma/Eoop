@@ -1,6 +1,6 @@
-/* ==========FOOTBALL_NO_GRAPH===========
+/* ==========BASKETBALL_GRAPH===========
 Requires GNU plot to render graphs, use
-main4.cpp(or "football_no_graph") and check
+main4.cpp(or "basketball_no_graph") and check
 results produced in "data.dat" file. This 
 main file shows use of FanClubs and all it's 
 different functionalities  */
@@ -17,44 +17,44 @@ int main(int argc, char const *argv[]) {
 	//--------Fanclubs---------//
 	/* create a fanclub with arguments
 	club name and club ID respectively*/
-	FanClubs clubA("First Club", 55);
+	FanClubs clubA("First Fan Club", 55);
 	/*Add a fan to club with arguments
 	fan name, age and sex respectively*/
-	clubA.addFans("Pinky", 18, 'f');
-	clubA.addFans("Vilma", 19, 'm');
-	clubA.addFans("Ritwick", 43, 'f');
-	clubA.addFans("Prateek", 25, 'm');
-	clubA.addFans("Max", 35, 'm');
-	clubA.addFans("Abdu", 11, 'f');
-	clubA.addFans("Master", 11, 'f');
+	clubA.addFans("Tony", 18, 'f');
+	clubA.addFans("Steve", 19, 'm');
+	clubA.addFans("Natasha", 43, 'f');
+	clubA.addFans("Bruce", 25, 'm');
+	clubA.addFans("Clint", 35, 'm');
+	clubA.addFans("Thor", 11, 'f');
+	//clubA.addFans("", 11, 'f');
 
-	FanClubs clubB("Second Club", 51);
-	clubB.addFans("Rocky", 22, 'f');
-	clubB.addFans("Rahul", 31, 'f');
-	clubB.addFans("Karina", 12, 'm');
-	clubB.addFans("Kevin", 26, 'm');
-	clubB.addFans("Lance", 62, 'f');
+	FanClubs clubB("Second Fan Club", 51);
+	clubB.addFans("Peter", 22, 'f');
+	clubB.addFans("Gamora", 31, 'f');
+	clubB.addFans("Rocket", 12, 'm');
+	clubB.addFans("Groot", 26, 'm');
+	clubB.addFans("Drax", 62, 'f');
 
-	FanClubs clubC("Third Club", 44);
-	clubC.addFans("Link", 22, 'f');
-	clubC.addFans("Rahul", 31, 'f');
-	clubC.addFans("Karina", 12, 'm');
-	clubC.addFans("Kevin", 26, 'm');
-	clubC.addFans("Lance", 62, 'f');
+	FanClubs clubC("Third Fan Club", 44);
+	clubC.addFans("Jon", 22, 'f');
+	clubC.addFans("Arya", 31, 'f');
+	clubC.addFans("Ned", 12, 'm');
+	clubC.addFans("Tyrion", 26, 'm');
+	clubC.addFans("Jaimie", 62, 'f');
 
-	FanClubs clubD("Fourth Club", 45);
-	clubD.addFans("Mario", 22, 'f');
-	clubD.addFans("Wendy", 11, 'f');
-	clubD.addFans("Jordan", 22, 'f');
-	clubD.addFans("Karina", 12, 'f');
-	clubD.addFans("Popoye", 72, 'm');
-	clubD.addFans("Raul", 12, 'm');
-	clubD.addFans("J", 12, 'm');
-	clubD.addFans("Micheal", 12, 'm');
-	clubD.addFans("Kevin", 26, 'm');
-	clubD.addFans("Lance", 62, 'f');
+	FanClubs clubD("Fourth Fan Club", 45);
+	clubD.addFans("Cersei", 22, 'f');
+	clubD.addFans("Gendry", 11, 'f');
+	clubD.addFans("Sansa", 22, 'f');
+	clubD.addFans("Lorem", 12, 'f');
+	clubD.addFans("Ipsum", 72, 'm');
+	clubD.addFans("Clegane", 12, 'm');
+	clubD.addFans("Dany", 12, 'm');
+	clubD.addFans("Robb", 12, 'm');
+	clubD.addFans("Littlefinger", 26, 'm');
+	clubD.addFans("Varys", 62, 'f');
 
-	FanClubs clubP("pop", 78);
+	FanClubs clubP("PoP", 78);
 	clubA.showFans();
 	clubB.showFans();
 	clubD.showFans();

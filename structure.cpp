@@ -52,16 +52,16 @@ void FanClubs::addFans(string name, int age, char sex) {
 	fans.push_back(fan);
 }
 //Soccer Teams member functions 
-string SoccerTeams::nameTeam(int id) {
+string BasketballTeams::nameTeam(int id) {
 	return teams.begin() -> teamName;
 }
 
-void SoccerTeams::showPlayers() {
+void BasketballTeams::showPlayers() {
 	cout << "Players in " << teams.begin() -> teamName << endl;
 	player.showPlayas(this->teamId);
 }
 
-void SoccerTeams::switchTeam(int playerId, int teamId) {
+void BasketballTeams::switchTeam(int playerId, int teamId) {
 	int flag = 1;
 	std::vector<Players>::iterator i;
 	for (i = players.begin(); i != players.end() ; ++i) {
@@ -79,7 +79,7 @@ void SoccerTeams::switchTeam(int playerId, int teamId) {
 }
 
 
-void SoccerTeams::showManagers() {
+void BasketballTeams::showManagers() {
 	int counter = 1;
 	list<ManagingDirectors>::iterator i;
 	for (i = directors.begin(); i != directors.end(); i++) {
@@ -95,7 +95,7 @@ void SoccerTeams::showManagers() {
 	}
 }
 
-void SoccerTeams::addPlayer(std::string name, int age, char sex, int id) {
+void BasketballTeams::addPlayer(std::string name, int age, char sex, int id) {
 	//exceptions_begin
 	contains_non_alpha(name);
 	m_or_f(sex);
@@ -110,7 +110,7 @@ void SoccerTeams::addPlayer(std::string name, int age, char sex, int id) {
 }
 
 
-void SoccerTeams::deletePlayer(int id) {
+void BasketballTeams::deletePlayer(int id) {
 	std::vector<Players>::iterator i;
 	int dirId;
 	for (i = players.begin(); i != players.end();) {
@@ -132,7 +132,7 @@ void SoccerTeams::deletePlayer(int id) {
 			i++;
 	}
 }
-void SoccerTeams::deletePlayer(int id, int manId) {
+void BasketballTeams::deletePlayer(int id, int manId) {
 	std::vector<Players>::iterator i;
 	for (i = players.begin(); i != players.end();) {
 		if(i->playerId == id) {
@@ -152,8 +152,8 @@ void SoccerTeams::deletePlayer(int id, int manId) {
 	}
 }
 
-void SoccerTeams::showTeam() {
-	vector<SoccerTeams>::iterator i;
+void BasketballTeams::showTeam() {
+	vector<BasketballTeams>::iterator i;
 	for (i = teams.begin(); i != teams.end(); ++i) {
 		cout << "\nTeam name: " << i -> teamName << endl;
 		cout << "Team id: " << i -> teamId << endl;
@@ -162,13 +162,13 @@ void SoccerTeams::showTeam() {
 	}
 }
 
-SoccerTeams::SoccerTeams(string tn, int id) {
+BasketballTeams::BasketballTeams(string tn, int id) {
 	teamName = tn;
 	teamId = id;
 	teams.push_back(*this);
 };
 
-int SoccerTeams::findManager(int id) {
+int BasketballTeams::findManager(int id) {
 	std::list<ManagingDirectors>::iterator i;
 	for (i = directors.begin(); i != directors.end(); ++i) {
 		if(i -> directorId == id) 
@@ -179,7 +179,7 @@ int SoccerTeams::findManager(int id) {
 	}
 
 //overloaded add mgr function with args 
-	void SoccerTeams::addManager(string name, int age, char sex, int id) {
+	void BasketballTeams::addManager(string name, int age, char sex, int id) {
 		//exceptions_begin
 		contains_non_alpha(name);
 		m_or_f(sex);
@@ -191,7 +191,7 @@ int SoccerTeams::findManager(int id) {
 		directors.push_front(mandir);
 	}
 
-	void SoccerTeams::exportToFile(const char *filename) {
+	void BasketballTeams::exportToFile(const char *filename) {
 		ofstream outfile;
 		outfile.open(filename, ios::out);
 	//send players vector and manager list to file

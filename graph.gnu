@@ -1,4 +1,4 @@
-set term x11 persist
+set terminal canvas
 set title "Fan Demographs"
 set ylabel "Number of people"
 set logscale y
