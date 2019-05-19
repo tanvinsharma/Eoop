@@ -1,3 +1,6 @@
 Age must be less than 100
 Name can only contain letters
 sex must only be m/M or f/F
+Age must be less than 100
+Name can only contain letters
+sex must only be m/M or f/F
