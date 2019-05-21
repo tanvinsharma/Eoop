@@ -15,9 +15,11 @@ int main(int argc, char const *argv[])
 	clubA.showFans() ;
 	cout << "======================" <<endl;
 
-	BasketballTeams TeamA ;
-	TeamA.addManager("Tanvin", 46, 'm', 1);
-	TeamA.showManagers();
+		BasketballTeams teamA("Los Angeles Lakers", 55);
+
+	teamA.addManager("Tanvin", 52, 'm', 65);
+	teamA.showManagers();
+
 
 	cout << "======================" <<endl;
 
