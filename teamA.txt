@@ -1,21 +1,57 @@
 Team name         : Los Angeles Lakers
-Players           : 2
-Average player age: 49.5
+Players           : 6
+Average player age: 65.1667
 
 +==============Team Data==============+
 
 | Player 1
-| Name: Tanvin
-| Sex : M
-| Age : 19
-| Pid : 1
+| Name: Lebron
+| Sex : m
+| Age : 21
+| Pid : 81
 
 | Player 2
-| Name: Arkin
-| Sex : M
-| Age : 11
-| Pid : 2
+| Name: Ingram
+| Sex : f
+| Age : 26
+| Pid : 82
+
+| Player 3
+| Name: Lonzo
+| Sex : m
+| Age : 12
+| Pid : 83
+
+| Player 4
+| Name: Lance
+| Sex : m
+| Age : 23
+| Pid : 85
+
+| Player 5
+| Name: Kuzma
+| Sex : m
+| Age : 29
+| Pid : 86
+
+| Player 6
+| Name: McGee
+| Sex : f
+| Age : 31
+| Pid : 87
 +=====================================+
 
 +============Directors data===========+
+
+| Manager 0
+| Name: Arkin
+| Age : 22
+| Sex : m
+| Id  : 66
+
+| Manager 1
+| Name: Tanvin
+| Age : 52
+| Sex : m
+| Id  : 65
 +=====================================+

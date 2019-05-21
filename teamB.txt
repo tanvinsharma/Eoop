@@ -1,15 +1,39 @@
 Team name         : Golden State Warriors
-Players           : 1
-Average player age: 99
+Players           : 3
+Average player age: 130.333
 
 +==============Team Data==============+
 
 | Player 1
-| Name: Lmao
-| Sex : M
-| Age : 69
-| Pid : 40
+| Name: Curry
+| Sex : f
+| Age : 53
+| Pid : 12
+
+| Player 2
+| Name: Durant
+| Sex : f
+| Age : 27
+| Pid : 13
+
+| Player 3
+| Name: Draymond
+| Sex : f
+| Age : 19
+| Pid : 14
+
+| Player 4
+| Name: Klay
+| Sex : f
+| Age : 15
+| Pid : 15
 +=====================================+
 
 +============Directors data===========+
+
+| Manager 0
+| Name: Kobe
+| Age : 43
+| Sex : f
+| Id  : 62
 +=====================================+
