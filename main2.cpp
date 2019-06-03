@@ -40,7 +40,7 @@ int main(int argc, char const *argv[]) {
 	teamA.addPlayer("Lance", 23, 'm', 85);
 	teamA.addPlayer("Kuzma", 29, 'm', 86);
 	teamA.addPlayer("McGee", 31, 'f', 87);
-	//teamA.deletePlayer(84, 66);
+	// teamA.deletePlayer(84, 66);
 	
 	teamB.addPlayer("Curry", 53, 'f', 12);
 	teamB.addPlayer("Durant", 27, 'f', 13);
